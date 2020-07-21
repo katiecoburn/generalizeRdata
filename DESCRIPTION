@@ -1,11 +1,11 @@
 Package: generalizeRdata
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Stores Data for Package generalizeR
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Katie Coburn
+Maintainer: Kathleen (Katie) Coburn <kathleen.coburn@northwestern.edu>
+Description: Contains education-related population datasets for use with the R package generalizeR (available on CRAN). These datasets are from the Common Core (CC) and Integrated Postsecondary Education System (IPEDS).
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.1.1
