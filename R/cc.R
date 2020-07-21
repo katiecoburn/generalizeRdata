@@ -1,0 +1,38 @@
+#' CCD (Common Core of Data), 2017
+#'
+#' A dataset formed by extracting information from the surveys conducted by the Institute of Education Sciences in 2017 (link provided as a source). These surveys are conducted annually by NCES () to gather information from every postsecondary institution that participates in federal student financial aid programs.
+#'
+#' This dataset represents a population of both degree-granting and non-degree-granting active post-secondary institutions of all levels and sectors. It includes public, private for-profit, and private not-for-profit institutions. The vast majority of institutions in the dataset are Title IV institutions (which participate in federal financial aid programs), although some non-Title IV institutions participate as well.
+#'
+#' @format A data frame with 6,440 rows and 60 columns. Each row corresponds to an institution.
+#'
+#' \describe{
+#' \item{total}{(double) the count of students enrolled on October 1 of a school year}
+#' \item{pct_american_indian_or_alaska_native}{(double) proportion of American Indian or Alaska Native students enrolled.
+#'
+#' An American Indian or Alaska Native person has origins in any of the original peoples of North and South America (including Central America), and who maintains tribal affiliation or community attachment.}
+#' \item{pct_asian}{(double) proportion of Asian students enrolled.
+#'
+#' An Asian person has origins in any of the original peoples of the Far East, Southeast Asia, or the Indian subcontinent, including, for example, Cambodia, China, India, Japan, Korea, Malaysia, Pakistan, the Philippine Islands, Thailand, and Vietnam.}
+#' \item{pct_black_or_african_american}{(double) proportion of Black or African American students enrolled.
+#'
+#' A Black or African American person has origins in any of the black racial groups of Africa.}
+#' \item{pct_hispanic_latino}{(double) proportion of Hispanic or Latino students enrolled.
+#'
+#' A Hispanic or Latino person is of Cuban, Mexican, Puerto Rican, Cuban, South or Central American, or other Spanish culture or origin, regardless of race.}
+#' \item{pct_native_hawaiian_or_other_pacific_islander}{(double) proportion of Native Hawaiian or Other Pacific Islander students enrolled.
+#'
+#' A Native Hawaiian or Other Pacific Islander person has origins in any of the original peoples of Hawaii, Guam, Samoa, or other Pacific Islands.}
+#' \item{pct_not_specified}{(double) proportion of race/ethnicity unknown students enrolled.}
+#' \item{pct_two_or_more_races}{(double) proportion of students of two or more races enrolled.}
+#' \item{pct_white}{(double) proportion of White men and women enrolled for credit during the 12-month period.
+#'
+#' A White person has origins in any of the original peoples of Europe, the Middle East, or North Africa.}
+#' \item{pct_female}{(double) proportion of female students enrolled.}
+#' \item{pct_male}{REMOVE THIS}
+#' \item{pct_gender_not_specified}{REMOVE THIS}
+#' \item{pct_direct_certification}{}
+#' \item{pct_free_and_reduced_lunch}{}
+#' }
+#' @source \url{https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx}
+"cc"
