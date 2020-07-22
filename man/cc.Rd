@@ -8,12 +8,11 @@
 A data frame with 98,563 rows and 44 columns. Each row corresponds to an institution.
 
 \describe{
-\item{schid}{(double) unique identifier}
+\item{ncessch}{(double) NCES (National Center for Education Statistics) unique school identifier}
 \item{sch_name}{(factor) name of the school}
 \item{st}{(factor) two-letter abbreviation of state where school is located}
 \item{mstreet1}{(factor) street address of school}
 \item{mcity}{(factor) city where school is located}
-\item{mzip}{(double) 5-digit zip code of school}
 \item{phone}{(factor) phone number of school}
 \item{website}{(factor) web address of school}
 \item{lea_name}{(factor) local education agency name}
